@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff,rgba(0, 0, 0, 0.308));
+    color: white;
+}
+
+.profile-img{
+    width: 400px;
+    border-radius: 50%;
+    height: 550px;
+    border: 7px solid #EFB0C9
+}
+
+.bday-age{
+    background: #EFB0C9;
+    padding: 5px 10px;
+}
+
+.bday-date{
+    margin-top: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-heading{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.gift-hint{
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.gift{
+    margin-top: 10px;
+    width: 500px;
+    height: 400px;
+    border: 8px solid white;
+    margin: 0 auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+.gift:hover{
+    background-image: url("images/happy.gif");
+    background-size: cover;
+}
+
+#gift-2{
+    margin-bottom: 20px;
+}
+
+#gift-back-2:hover{
+    background-image: url("images/masoom.gif");
+}
+
+#gift-back-3{
+    width: 400px;
+    height: 300px;
+    border: 8px solid white;
+    margin: 0 auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+#gift-back-3:hover{
+    background-image: url("images/cheers.gif");
+}
+
+p{
+    margin-top: 50px;
+    text-align: right;
+}
